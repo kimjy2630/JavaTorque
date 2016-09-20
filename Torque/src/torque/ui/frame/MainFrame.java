@@ -10,7 +10,7 @@ import torque.ui.panel.*;
 /**
  * Main frame of the game.
  * 
- * @author ÀçÀ±
+ * @author ï¿½ï¿½ï¿½ï¿½
  * 
  */
 public class MainFrame extends JFrame {
@@ -29,6 +29,9 @@ public class MainFrame extends JFrame {
 	MenuPanel mPanel = null;
 	ReplayPanel rPanel = null;
 	LoginPanel lPanel = null;
+	///
+	for(
+	int i = 0;i<3;++i);
 
 	MyWindowListener windowListener = new MyWindowListener();
 
@@ -61,7 +64,8 @@ public class MainFrame extends JFrame {
 		showPanel("login");
 
 		// setUndecorated(true);
-		// setSize(GamePanel.PPANEL_WIDTH + 16, GamePanel.PPANEL_HEIGHT + 50 + 38);
+		// setSize(GamePanel.PPANEL_WIDTH + 16, GamePanel.PPANEL_HEIGHT + 50 +
+		// 38);
 		pack();
 		setVisible(true);
 
