@@ -29,9 +29,6 @@ public class MainFrame extends JFrame {
 	MenuPanel mPanel = null;
 	ReplayPanel rPanel = null;
 	LoginPanel lPanel = null;
-	///
-	for(
-	int i = 0;i<3;++i);
 
 	MyWindowListener windowListener = new MyWindowListener();
 
